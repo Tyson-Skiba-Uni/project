@@ -1,7 +1,7 @@
 CFLAGS=-Wall
 
 
-project:(OBJS)
+project:$(OBJS)
 	gcc $(LDFLAGS) $< -o $@
 
 %.o: %.c
