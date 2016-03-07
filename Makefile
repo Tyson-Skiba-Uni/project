@@ -1,5 +1,5 @@
 CFLAGS=-Wall
-
+OBJS=project.o
 
 project:$(OBJS)
 	gcc $(LDFLAGS) $< -o $@
