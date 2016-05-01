@@ -1,0 +1,13 @@
+Program has Two Run Options
+
+To run in either mode execute the program found in the source directory
+
+if run with no command line options the program will continute to run until End of File is entered, CTRL+D is presed or CTRL+C is pressed
+
+To run in counter mode add argument --count or -c and the number of inputs.
+
+Example: 
+
+/program/src/llist -c 2
+
+This will execute the program with a count value of 2
